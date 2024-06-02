@@ -1,9 +1,9 @@
 body {
     font-family: Verdana, Helvetica, sans-serif;
     text-align: center;
-    background-color: #222;
+    background-color: #fff;
     margin: 0;
-    color: #fff;
+    color: #222;
 }
 
 select {
@@ -21,7 +21,7 @@ select {
 select:-moz-focusring {
     transition-duration: 0s;
     color: transparent;
-    text-shadow: 0 0 0 #fff;
+    text-shadow: 0 0 0 #eee;
 }
 
 option {
@@ -37,8 +37,8 @@ option {
     width: 230px;
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 19px;
-    background-color: #333;
-    color: white;
+    background-color: #ddd;
+    color: #222;
     border: 0px solid white;
     border-radius: 25px;
 }
@@ -73,8 +73,8 @@ img {
     padding: 8px 14px;
     font-size: 14px;
     font-family: sans-serif;
-    color: #ffffff;
-    background: #09f;
+    color: #fff;
+    background: #222;
     cursor: pointer;
     transition: background 0.1s;
 }
@@ -102,7 +102,7 @@ img {
 }
 
 a {
-    color: #fff;
+    color: #222;
     cursor: pointer;
     text-decoration: underline;
 }
@@ -115,7 +115,7 @@ ol {
 
 li::marker {
     text-decoration: bold;
-    color: #09f;
+    color: #fff;
 }
 
 li {
@@ -128,7 +128,7 @@ li {
     margin: auto;
     border-radius: 5px;
     box-sizing: border-box;
-    background-color: #222;
+    background-color: #fff;
     overflow: hidden;
 }
 
@@ -136,12 +136,12 @@ li {
     padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     ewt-install-dialog {
         /*--mdc-theme-primary: #ffa000; /*buttons*/
-        --mdc-theme-surface: #333;
-        --mdc-dialog-heading-ink-color: #fff;
-        --mdc-dialog-content-ink-color: #ddd;
-        --mdc-text-field-fill-color: #ddd;
+        --mdc-theme-surface: #fff;
+        --mdc-dialog-heading-ink-color: #222;
+        --mdc-dialog-content-ink-color: #222;
+        --mdc-text-field-fill-color: #222;
     }
 }
