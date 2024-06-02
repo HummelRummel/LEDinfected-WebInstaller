@@ -1,3 +1,3 @@
 # WLED-WebFlasher
 
-https://hummelrummel.github.io/WLED-WebInstaller/
+https://hummelrummel.github.io/LEDinfected-WebInstaller/
